@@ -1,0 +1,145 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  overflow-x: hidden;
+}
+
+body {
+  font-family: "Quicksand", sans-serif;
+}
+
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+.primary-text {
+  color: tan;
+}
+
+.btn {
+  display: inline-block;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 15px;
+}
+.btn-primary {
+  color: #fff;
+  border: 1px solid #fff;
+}
+.btn-primary:hover {
+  background: #f1eded8d;
+}
+header {
+  height: 100vh;
+  background: url("./img/2025-11-23.png") center center/cover no-repeat;
+  position: relative;
+}
+
+#navbar {
+  display: flex;
+  justify-content: space-between;
+
+  align-items: center;
+}
+#navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+#navbar img {
+  width: 270px;
+  margin-left: 0; /* ألغينا المشكلة */
+}
+
+#navbar ul {
+  display: flex;
+  margin-right: 20px;
+}
+#navbar ul a {
+  padding: 15px 20px;
+  color: #fff;
+  font-weight: 700;
+}
+
+#navbar ul li a:hover {
+  border-bottom: 2px solid #cbc6c6;
+}
+header .content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 75vh;
+}
+header .content h1 {
+  font-size: 40px;
+  color: #fff;
+}
+header .content p {
+  margin: 20px 0 40px;
+  color: #fff;
+}
+.buttons {
+  text-align: center;
+}
+
+.buttons .btn {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+header::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: rgb(0, 0, 0, 0.6);
+}
+header * {
+  z-index: 10;
+}
+/* = mobilelay == */
+@media (max-width: 768px) {
+  body {
+    overflow-x: hidden;
+  }
+
+  #navbar {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #navbar img {
+    width: 180px !important;
+    margin-left: 0 !important;
+  }
+
+  header .content h1 {
+    font-size: 26px;
+    text-align: center;
+    padding: 0 15px;
+  }
+
+  header .content p {
+    font-size: 16px;
+    text-align: center;
+    padding: 0 20px;
+  }
+
+  .buttons .btn {
+    margin: 10px 0;
+    width: 80%;
+    text-align: center;
+  }
+}
