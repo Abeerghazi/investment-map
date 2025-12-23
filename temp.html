@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Temporary Contracts</title>
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Leaflet CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        display: flex;
+        font-family: sans-serif;
+      }
+
+      /* الخريطة */
+      #map {
+        width: 70%;
+        height: 100vh;
+      }
+
+      /* القائمة */
+      .sidebar {
+        width: 30%;
+        height: 100vh;
+        overflow-y: auto;
+        padding: 20px;
+        background: #fff;
+        border-left: 1px solid #ddd;
+      }
+
+      .card {
+        background: #f9f9f9;
+        padding: 15px;
+        border-radius: 10px;
+        margin-bottom: 15px;
+        cursor: pointer;
+        border: 1px solid #ddd;
+      }
+      .card:hover {
+        background: #eee;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- الخريطة -->
+    <div id="map"></div>
+
+    <!-- القائمة -->
+    <div class="sidebar">
+      <h2>Temporary Contracts</h2>
+      <div id="eventList"></div>
+    </div>
+
+    <!-- Leaflet JS -->
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+
+    <script>
+      const map = L.map("map").setView([28.41, 45.98], 12);
+
+      L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
+        attribution: "© OpenStreetMap",
+      }).addTo(map);
+
+     fetch("opportunities-temp.json")
+
+        .then((res) => res.json())
+        .then((data) => {
+          const listContainer = document.getElementById("eventList");
+
+          data.forEach((event) => {
+            // Add markers to the map
+            const marker = L.marker([event.lat, event.lng]).addTo(map);
+            marker.bindPopup(
+              `<b>${event.eventName}</b><br>${event.description}`
+            );
+
+            // Create clickable event card
+            const card = document.createElement("div");
+            card.className = "card";
+            card.innerHTML = `
+              <h3>${event.eventName}</h3>
+              <p>${event.description}</p>
+            `;
+
+            // If user clicks the card → move map to location
+            card.addEventListener("click", () => {
+              map.setView([event.lat, event.lng], 15);
+              marker.openPopup();
+            });
+
+            listContainer.appendChild(card);
+          });
+        });
+    </script>
+  </body>
+</html>

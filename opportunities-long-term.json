@@ -1,0 +1,201 @@
+[
+  {
+    "name": "Construction, Operation, Maintenance & Investment of the Engineering Landfill in Hafar Al-Batin",
+    "lat": 28.483848,
+    "lng": 46.217983,
+    "area": "2646250",
+    "activity": "Environmental Activities",
+    "duration": "25 years",
+    "size": "Large"
+  },
+  {
+    "name": "Construction, Operation & Maintenance of a Specialized Medical Complex",
+    "lat": 28.41929,
+    "lng": 45.989241,
+    "area": "8615",
+    "activity": "Medical Activities",
+    "duration": "15 years",
+    "size": "Medium"
+  },
+  {
+    "name": "Construction, Operation & Maintenance of a Private College",
+    "lat": 28.445253,
+    "lng": 45.953782,
+    "area": "13500",
+    "activity": "Educational Activities",
+    "duration": "15 years",
+    "size": "Medium"
+  },
+  {
+    "name": "Light & Medium Industries Factory",
+    "lat": 28.393323,
+    "lng": 46.065043,
+    "area": "2500",
+    "activity": "Industrial Activities",
+    "duration": "15 years",
+    "size": "Medium"
+  },
+  {
+    "name": "Development, Operation & Maintenance of South Wadi Flayj Park",
+    "lat": 28.381921639583624,
+    "lng": 46.00606367315741,
+    "area": "127624",
+    "activity": "General Activities",
+    "duration": "25 years",
+    "size": "Medium"
+  },
+  {
+    "name": "Development, Operation & Maintenance of Al-Nozha Park A",
+    "lat": 28.425328,
+    "lng": 45.920043,
+    "area": "86056",
+    "activity": "General Activities",
+    "duration": "25 years",
+    "size": "Medium"
+  },
+  {
+    "name": "Development, Operation & Maintenance of Al-Techniyah Park",
+    "lat": 28.33283568007247,
+    "lng": 45.96010715356776,
+    "area": "33593",
+    "activity": "General Activities",
+    "duration": "25 years",
+    "size": "Medium"
+  },
+  {
+    "name": "Development, Operation & Maintenance of Al-Shorouq Park",
+    "lat": 28.44945699382792,
+    "lng": 46.070832536434885,
+    "area": "43948",
+    "activity": "General Activities",
+    "duration": "25 years",
+    "size": "Medium"
+  },
+  {
+    "name": "Development, Operation & Maintenance of Al-Shamal Park",
+    "lat": 28.387645,
+    "lng": 45.941739,
+    "area": "213713",
+    "activity": "General Activities",
+    "duration": "25 years",
+    "size": "Medium"
+  },
+  {
+    "name": "Development, Operation & Maintenance of Abu Musa Al-Ashari Park",
+    "lat": 28.445268,
+    "lng": 45.983842,
+    "area": "113446",
+    "activity": "General Activities",
+    "duration": "25 years",
+    "size": "Medium"
+  },
+  {
+    "name": "Development, Operation & Maintenance of Al-Safa Park",
+    "lat": 28.379302,
+    "lng": 45.989811,
+    "area": "64157",
+    "activity": "General Activities",
+    "duration": "25 years",
+    "size": "Medium"
+  },
+
+  {
+    "name": "Construction, Operation & Maintenance of a Vehicle Transport Center",
+    "lat": 28.431055,
+    "lng": 46.036399,
+    "area": "3000",
+    "activity": "Transport Activities",
+    "duration": "10 years",
+    "size": "Medium"
+  },
+  {
+    "name": "Transport Services Facility",
+    "lat": 28.386155,
+    "lng": 46.042242,
+    "area": "15000",
+    "activity": "Transport Activities",
+    "duration": "20 years",
+    "size": "Medium"
+  },
+  {
+    "name": "Transport Service Unit",
+    "lat": 28.400278,
+    "lng": 46.051412,
+    "area": "2500",
+    "activity": "Transport Activities",
+    "duration": "10 years",
+    "size": "Medium"
+  },
+  {
+    "name": "Non-Hazardous Waste Transport Vehicle Shelter",
+    "lat": 28.398629,
+    "lng": 46.04995,
+    "area": "2500",
+    "activity": "Transport Activities",
+    "duration": "5 years",
+    "size": "Medium"
+  },
+  {
+    "name": "Multi-Use Commercial Complex",
+    "lat": 28.366463,
+    "lng": 45.996208,
+    "area": "15000",
+    "activity": "Commercial Activities",
+    "duration": "20 years",
+    "size": "Large"
+  },
+  {
+    "name": "Automatic Car Wash Center",
+    "lat": 28.458457015636338,
+    "lng": 45.97646147116439,
+    "area": "5000",
+    "activity": "Automotive Activities",
+    "duration": "10 years",
+    "size": "Medium"
+  },
+  {
+    "name": "Furnished Hotel Apartments",
+    "lat": 28.386354,
+    "lng": 45.942929,
+    "area": "21667",
+    "activity": "Hospitality & Tourism",
+    "duration": "15 years",
+    "size": "Medium"
+  },
+  {
+    "name": "Mobile Caravans & Trailers Manufacturing",
+    "lat": 28.399417,
+    "lng": 46.055548,
+    "area": "10000",
+    "activity": "Industrial Activities",
+    "duration": "15 years",
+    "size": "Medium"
+  },
+  {
+    "name": "Steel Structures Manufacturing",
+    "lat": 28.39963,
+    "lng": 46.044588,
+    "area": "10000",
+    "activity": "Industrial Activities",
+    "duration": "15 years",
+    "size": "Medium"
+  },
+  {
+    "name": "Collective Housing for Individuals",
+    "lat": 28.431694,
+    "lng": 46.042099,
+    "area": "14443",
+    "activity": "Collective Housing",
+    "duration": "15 years",
+    "size": "Medium"
+  },
+  {
+    "name": "International School",
+    "lat": 28.367264,
+    "lng": 45.994325,
+    "area": "15000",
+    "activity": "Educational Activities",
+    "duration": "15 years",
+    "size": "Medium"
+  }
+]
